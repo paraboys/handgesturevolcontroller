@@ -29,18 +29,22 @@ HandGestureVolController is a Python-based application that allows you to contro
   
   pip install -r requirements.txt
 
- Usage
+ Usage.
+
 Ensure your webcam is connected and properly configured.
 Run the application using the command above.
 Use the predefined hand gestures to control the volume:
 Volume Up: Raise your hand with an open palm.
 Volume Down: Lower your hand with an open palm.
-Mute/Unmute: Show a closed fist.
-Future Enhancements
+
+
+## Future Enhancements:
+
 Add support for more gestures.
 Improve gesture recognition accuracy.
 Implement cross-platform compatibility for volume control.
-Contributing
+## Contributing:
+
 Contributions are welcome! Please follow these steps:
 
 Fork the repository.
@@ -51,10 +55,12 @@ Push to the branch (git push origin feature-branch).
 Open a pull request.
 Please read the contribution guidelines for more details.
 
-License
+## License:
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments:
+
 The OpenCV and MediaPipe teams for their excellent libraries.
 The developer community for continuous support and inspiration. 
 
