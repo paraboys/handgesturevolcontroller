@@ -8,12 +8,12 @@ import math
 from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 
-################
-Wcam,Hcam=840,780
-################
+
+Widcam,Heightcam=840,780
+
 cap=cv2.VideoCapture(0)
-cap.set(3,Wcam)
-cap.set(4,Hcam)
+cap.set(3,Widcam)
+cap.set(4,Hieghtcam)
 pTime=0
 
 detector=htm.handDetector(detectionCon=0.7)
